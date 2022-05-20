@@ -1,0 +1,6 @@
+package com.model;
+
+public class ScientificCalcInterface {
+	public abstract int mod(int a,int b);
+
+}

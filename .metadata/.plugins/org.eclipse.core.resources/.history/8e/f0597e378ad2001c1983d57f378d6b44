@@ -1,0 +1,12 @@
+package com.model;
+
+public class ScientificCalcImpl implements ScientificCalcInterface {
+
+	@Override
+	public int mod(int a, int b) {
+		// TODO Auto-generated method stub
+		return a%b;
+	}
+	
+
+}

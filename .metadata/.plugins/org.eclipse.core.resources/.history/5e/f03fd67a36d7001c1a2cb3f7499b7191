@@ -1,0 +1,10 @@
+package com.main;
+
+public class SortingDemo {
+
+	public static void main(String[] args) {
+		int[] intArray = {5,2,7,1,9};
+
+	}
+
+}

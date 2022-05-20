@@ -1,0 +1,10 @@
+package com.main;
+
+import com.model.DepartmentModel;
+
+public class DepartmentCollections {
+	public static void main(String[] args) {
+		DepartmentModel departmentModel = new DepartmentModel();
+	}
+
+}

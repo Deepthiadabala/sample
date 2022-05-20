@@ -1,0 +1,7 @@
+package com.model;
+
+public interface MyInterface {
+	//public static final values = values
+	//One or more  AbstractMethods
+
+}

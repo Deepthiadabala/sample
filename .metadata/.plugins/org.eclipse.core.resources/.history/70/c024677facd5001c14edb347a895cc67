@@ -1,0 +1,9 @@
+package com.main;
+
+import com.service.CalculaterService;
+import com.service.CalculatorServiceImpl;
+
+public class CalculatorMain {
+	CalculaterService calculaterService = new CalculatorServiceImpl();
+
+}

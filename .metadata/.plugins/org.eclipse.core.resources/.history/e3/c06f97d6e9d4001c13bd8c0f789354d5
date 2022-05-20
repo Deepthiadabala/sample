@@ -1,0 +1,17 @@
+package com.main;
+
+public class CommandLineArg {
+
+	public static void main(String[] args) {
+		System.out.println(args[0]);
+		System.out.println(args[1]+12);
+		
+		//convert string to int -> By using wrapper class
+		
+		int val = Integer.parseInt(args[1]);
+		System.out.println(val + 100);
+
+
+	}
+
+}

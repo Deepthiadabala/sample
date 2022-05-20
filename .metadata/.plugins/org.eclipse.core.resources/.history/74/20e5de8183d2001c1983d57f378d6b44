@@ -1,0 +1,12 @@
+package com.main;
+
+import com.model.Calculator;
+import com.model.MyCalc;
+
+public class CalApp {
+	public static void main(String[] args) {
+		//abstractClassName var = new Inherited class
+		MyCalc calc = new MyCalc();
+	}
+
+}

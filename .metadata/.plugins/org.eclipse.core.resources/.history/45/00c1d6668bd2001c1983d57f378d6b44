@@ -1,0 +1,20 @@
+package com.main;
+
+import com.model.MyInterface;
+import com.model.MyInterfaceImpl;
+
+public class TheMainApp {
+
+	public static void main(String[] args) {
+		// InterfaceName var = new InterfaceImpl();
+		
+		MyInterface myInterface = new MyInterfaceImpl();
+		
+		System.out.println("Addition " + myInterface.add(2, 4));
+		System.out.println("Substraction " + myInterface.sub(4, 2));
+		System.out.println("Multiplication " + myInterface.mul(2, 4));
+		System.out.println("Division " + myInterface.div(2, 4));
+		System.out.println("Modulus " + myInterface.mod(4, 2));
+		}
+
+}

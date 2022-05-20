@@ -1,0 +1,14 @@
+package com.main;
+
+import com.service.CalculaterService;
+import com.service.CalculatorServiceImpl;
+
+public class CalculatorMain {
+	CalculaterService calculaterService = new CalculatorServiceImpl();
+	int a =10;
+	int b = 20;
+	int ans = calculaterService.add(b, a);
+	
+	
+
+}

@@ -1,0 +1,18 @@
+package com.main;
+
+import com.service.CalculaterService;
+import com.service.CalculatorServiceImpl;
+
+public class CalculatorMain {
+	public static void main(String[] args) {
+		
+	
+	CalculaterService calculaterService = new CalculatorServiceImpl();
+	int a =10;
+	int b = 20;
+	int ans = calculaterService.add(b, a);
+	System.out.println("Addition of two numbers" + ans);
+	
+	
+	}
+}

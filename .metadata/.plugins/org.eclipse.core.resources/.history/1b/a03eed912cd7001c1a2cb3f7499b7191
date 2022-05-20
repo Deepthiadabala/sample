@@ -1,0 +1,27 @@
+package com.model;
+
+public class EmployeeModel {
+	private String EmployeeName;
+	private int EmployeeId;
+	public String getEmployeeName() {
+		return EmployeeName;
+	}
+	public int getEmployeeId() {
+		return EmployeeId;
+	}
+	public void setEmployeeName(String employeeName) {
+		EmployeeName = employeeName;
+	}
+	public void setEmployeeId(int employeeId) {
+		EmployeeId = employeeId;
+	}
+	
+	
+	public EmployeeModel(String employeeName, int employeeId) {
+		super();
+		EmployeeName = employeeName;
+		EmployeeId = employeeId;
+	}
+	
+
+}

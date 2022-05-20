@@ -1,0 +1,19 @@
+package com.main;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import com.model.AddressModel;
+import com.model.DepartmentModel;
+
+public class DepartmentCollections {
+	public static void main(String[] args) {
+		DepartmentModel departmentModel = new DepartmentModel();
+		
+		Set setAdresess = new HashSet();
+		AddressModel address1 = new AddressModel("R.H.Colony", "Vizag");
+		AddressModel address2 = new AddressModel("Kandhan", "chennai");
+		
+	}
+
+}

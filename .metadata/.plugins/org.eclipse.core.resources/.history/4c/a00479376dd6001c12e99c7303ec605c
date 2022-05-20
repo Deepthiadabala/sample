@@ -1,0 +1,13 @@
+package com.main;
+
+import com.model.Department;
+
+public class SetDemo {
+	public static void main(String[] args) {
+		Department department1 = new Department(10, "Development");
+		Department department2= new Department(20, "Texting");
+		Department department3= new Department(30, "cloud");
+		
+	}
+
+}
